@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "B_,SL",
+	ingredients: {
+		"L": { type: "item", code: "game:stone-*", quantity: 4 },
+		"S": { type: "item", code: "game:lime" },
+		"B": { type: "item", code: "game:burnedbrick-*", allowedVariants: ["blue","fire"], name: "brick"},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "stoneroadstairs-{brick}-up-north-free", quantity: 1 }
+}

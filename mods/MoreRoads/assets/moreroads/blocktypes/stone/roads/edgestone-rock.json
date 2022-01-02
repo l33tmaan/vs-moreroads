@@ -1,0 +1,117 @@
+{
+	code: "edgestonerock",
+	attributes: {
+		handbook: {
+			groupBy: ["edgestonerock-*"]
+		},
+	},
+	class: "BlockStairs",
+	shapeByType: { 
+		"*-straight-north-free": {base: "block/roads/edgestone-rock", rotateY: 0 },
+		"*-straight-west-free": {base: "block/roads/edgestone-rock", rotateY: 90 },
+		"*-straight-south-free": {base: "block/roads/edgestone-rock", rotateY: 180 },
+		"*-straight-east-free": {base: "block/roads/edgestone-rock", rotateY: 270 },
+		"*-straight-north-snow": {base: "block/roads/edgestone-rock-snow", rotateY: 0 },
+		"*-straight-west-snow": {base: "block/roads/edgestone-rock-snow", rotateY: 90 },
+		"*-straight-south-snow": {base: "block/roads/edgestone-rock-snow", rotateY: 180 },
+		"*-straight-east-snow": {base: "block/roads/edgestone-rock-snow", rotateY: 270 },
+		"*-corner-north-free": {base: "block/roads/edgestone-rockL", rotateY: 0 },
+		"*-corner-west-free": {base: "block/roads/edgestone-rockL", rotateY: 90 },
+		"*-corner-south-free": {base: "block/roads/edgestone-rockL", rotateY: 180 },
+		"*-corner-east-free": {base: "block/roads/edgestone-rockL", rotateY: 270 },
+		"*-corner-north-snow": {base: "block/roads/edgestone-rockL-snow", rotateY: 0 },
+		"*-corner-west-snow": {base: "block/roads/edgestone-rockL-snow", rotateY: 90 },
+		"*-corner-south-snow": {base: "block/roads/edgestone-rockL-snow", rotateY: 180 },
+		"*-corner-east-snow": {base: "block/roads/edgestone-rockL-snow", rotateY: 270 },
+		"*-cap-north-free": {base: "block/roads/edgestone-rockcap", rotateY: 0 },
+		"*-cap-west-free": {base: "block/roads/edgestone-rockcap", rotateY: 90 },
+		"*-cap-south-free": {base: "block/roads/edgestone-rockcap", rotateY: 180 },
+		"*-cap-east-free": {base: "block/roads/edgestone-rockcap", rotateY: 270 },
+		"*-cap-north-snow": {base: "block/roads/edgestone-rockcap-snow", rotateY: 0 },
+		"*-cap-west-snow": {base: "block/roads/edgestone-rockcap-snow", rotateY: 90 },
+		"*-cap-south-snow": {base: "block/roads/edgestone-rockcap-snow", rotateY: 180 },
+		"*-cap-east-snow": {base: "block/roads/edgestone-rockcap-snow", rotateY: 270 },
+	},
+	creativeinventory: { "general": ["*-north-free"], "decorative": ["*-north-free"], "construction": ["*-north-free"], "moreroads": ["*-north-free"] },
+	blockmaterial: "Stone",
+	replaceable: 900,
+    emitSideAO: { all: false },
+	lightAbsorption: 0,
+	variantgroups: [
+		{code: "type", states: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+		{ code: "corner", states: ["straight", "corner", "cap"] },
+		{ loadFromProperties: "game:abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] },
+	],
+	textures: {
+		"null": { base: "block/road/rockedge{type}",
+		},
+	},
+	resistance: 2.4,
+	sideopaque: {
+		all: false,
+	},
+	sidesolid: {
+		all: false,
+	},
+	collisionSelectionBoxesByType: {
+		"*-straight-*": [
+			{ x1: 0, y1: 0, z1:0, x2: 1, y2: 0.25, z2: 0.25,
+				rotateYByType: {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90,
+				} 
+			},
+		],
+		"*-corner-*": [
+			{ x1: 0, y1: 0, z1:0, x2: 1, y2: 0.25, z2: 0.25,
+				rotateYByType: {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90,
+				} 
+			},
+			{ x1: 0, y1: 0, z1:0, x2: 0.25, y2: 0.25, z2: 1,
+				rotateYByType: {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90,
+				} 
+			},
+		],
+		"*-cap-*": [
+			{ x1: 0, y1: 0, z1:0, x2: 0.25, y2: 0.25, z2: 0.25,
+				rotateYByType: {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90,
+				} 
+			},
+			{ x1: 0, y1: 0, z1:0, x2: 0.25, y2: 0.25, z2: 0.25,
+				rotateYByType: {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90,
+				} 
+			},
+		],
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1.1, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.37
+	},
+	sounds: {
+		walk: "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+}

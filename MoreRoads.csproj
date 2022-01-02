@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D77A0AEC-8811-4A60-915B-A590A151AC96}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MoreRoads</RootNamespace>
+    <AssemblyName>MoreRoads</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VintagestoryAPI">
+      <HintPath>..\..\..\..\AppData\Roaming\Vintagestory\VintagestoryAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="VSCreativeMod">
+      <HintPath>..\..\..\..\AppData\Roaming\Vintagestory\Mods\VSCreativeMod.dll</HintPath>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>..\..\..\..\AppData\Roaming\Vintagestory\Mods\VSEssentials.dll</HintPath>
+    </Reference>
+    <Reference Include="VSSurvivalMod">
+      <HintPath>..\..\..\..\AppData\Roaming\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\BlockConcrete.cs" />
+    <Compile Include="src\MoreRoads.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="mods\MoreRoads\assets\game\blocktypes\liquid\concrete.json" />
+    <None Include="mods\MoreRoads\assets\game\blocktypes\stone\stonefootpath.json" />
+    <None Include="mods\MoreRoads\assets\game\blocktypes\wood\generic\morepaths.json" />
+    <None Include="mods\MoreRoads\assets\game\compatibility\zeekea\patches\add-dust-to-grindingprops.json" />
+    <None Include="mods\MoreRoads\assets\game\itemtypes\dust.json" />
+    <None Include="mods\MoreRoads\assets\game\lang\en.json" />
+    <None Include="mods\MoreRoads\assets\game\lang\ru.json" />
+    <None Include="mods\MoreRoads\assets\game\patches\add-dust-to-grindingprops.json" />
+    <None Include="mods\MoreRoads\assets\game\recipes\grid\morewoodenpath.json" />
+    <None Include="mods\MoreRoads\assets\game\recipes\grid\stonefootpath.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brick.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickstairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-circle.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-circleslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-circlestairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-fish.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-fishslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-fishstairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-slab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-square.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-squareslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-squarestairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-stairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\edgestone-clay.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\edgestone-rock.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\edgestone-stone.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\edgestone-wood.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\stoneroad-slab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\stoneroad-stairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\stoneroad.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\temporalroad-slab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\temporalroad-stairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\temporalroad.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\itemtypes\resource\concretemix.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\itemtypes\resource\concreteportion.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\lang\en.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\lang\ru.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\patches\remap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\barrel\concrete.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\concrete.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestoneclay.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestoneclaycap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestoneclaycorner.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestoneclaystraight.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonerock.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonerockcap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonerockcorner.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonerockstraight.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonestone.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonestonecap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonestonecorner.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonestonestraight.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonewood.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonewoodcap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonewoodcorner.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\edgestonewoodstraight.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2alt.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2brickslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2brickstairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2slab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad2stairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad3.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad3slab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad3stairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroadslab.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroadstairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clay-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clay.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-claycap-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-claycap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clayl-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clayl.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rock-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rock.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rockcap-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rockcap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rockl-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-rockl.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stone-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stone.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stonecap-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stonecap.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stonel-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-stonel.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-wood-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-wood.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-woodl-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-woodl.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\roads-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\roads.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\slab-brick-lowered.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\slab-lowered.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\slab-snow-brick-lowered.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\slab-snow-lowered.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-brick-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-brick.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-normal-clay.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-normal.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-brick.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-normal-clay.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-normal.json" />
+    <None Include="mods\MoreRoads\modinfo.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\andesite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\andesite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\andesite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\andesite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\basalt_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\basalt_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\basalt_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\basalt_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\bauxite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\bauxite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\bauxite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\bauxite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chalk_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chalk_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chalk_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chalk_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chert_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chert_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chert_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\chert_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\claystone_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\claystone_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\claystone_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\claystone_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\conglomerate_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\conglomerate_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\conglomerate_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\conglomerate_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\granite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\granite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\granite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\granite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\greenmarble_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\greenmarble_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\greenmarble_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\greenmarble_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\kimberlite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\kimberlite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\kimberlite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\kimberlite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\limestone_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\limestone_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\limestone_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\limestone_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\obsidian_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\obsidian_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\obsidian_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\obsidian_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\peridotite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\peridotite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\peridotite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\peridotite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\phyllite_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\phyllite_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\phyllite_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\phyllite_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\redmarble_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\redmarble_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\redmarble_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\redmarble_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\sandstone_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\sandstone_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\sandstone_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\sandstone_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\shale_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\shale_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\shale_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\shale_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\slate_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\slate_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\slate_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\slate_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\whitemarble_stones_1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\whitemarble_stones_2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\whitemarble_stones_3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\stones\whitemarble_stones_4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\barrel\concrete.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\barrel\concrete2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\acacia\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\aged\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\birch\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\cypress\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\ebony\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\kapok\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\larch\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\maple\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\oak\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\pine\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\purpleheart\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\redwood\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal1.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal2.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal3.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal4.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal5.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal6.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal7.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal8.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal9.png" />
+    <Content Include="mods\MoreRoads\assets\game\textures\item\temporal.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbasalt1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbasalt2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbasalt3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbasalt4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbauxite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbauxite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbauxite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadbauxite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchalk1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchalk2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchalk3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchalk4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchert1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchert2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchert3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadchert4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadclaystone1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadclaystone2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadclaystone3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadclaystone4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadconglomerate1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadconglomerate2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadconglomerate3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadconglomerate4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadgranite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadgranite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadgranite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadgranite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadkimberlite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadkimberlite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadkimberlite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadkimberlite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadlimestone1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadlimestone2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadlimestone3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadlimestone4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadobsidian1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadobsidian2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadobsidian3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadobsidian4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadperidotite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadperidotite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadperidotite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadperidotite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadphyllite1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadphyllite2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadphyllite3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadphyllite4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadsandstone1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadsandstone2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadsandstone3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadsandstone4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadshale1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadshale2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadshale3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadshale4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadslate1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadslate2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadslate3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadslate4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-andesite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-basalt.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-bauxite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-chalk.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-chert.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-claystone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-conglomerate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-granite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-kimberlite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-limestone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-oblivion.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-obsidian.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-peridotite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-phyllite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-sandstone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-shale.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\brickb-slate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-andesite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-basalt.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-bauxite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-chalk.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-chert.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-claystone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-conglomerate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-granite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-kimberlite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-limestone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-obsidian.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-peridotite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-phyllite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-sandstone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-shale.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\circle-slate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\clayedgeblue.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\clayedgefire.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-andesite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-basalt.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-bauxite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-chalk.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-chert.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-claystone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-conglomerate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-granite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-kimberlite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-limestone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-obsidian.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-peridotite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-phyllite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-sandstone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-shale.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\fish-slate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeandesite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgebasalt.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgebauxite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgechalk.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgechert.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeclaystone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeconglomerate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgegranite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgekimberlite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgelimestone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeobsidian.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeperidotite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgephyllite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgesandstone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeshale.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\rockedgeslate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-andesite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-basalt.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-bauxite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-chalk.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-chert.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-claystone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-conglomerate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-granite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-kimberlite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-limestone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-obsidian.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-peridotite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-phyllite.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-sandstone.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-shale.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\square-slate.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadblue1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadblue2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadblue3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadblue4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadfire1.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadfire2.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadfire3.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\stoneroadfire4.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\temporaloverlay.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\temporaloverlaytop.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgeacacia.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgeaged.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgebirch.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgecypress.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgeebony.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgekapok.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgelarch.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgemaple.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgeoak.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgepine.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgepurpleheart.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgeredwood.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgewalnut.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\wood\barrel\concrete.png" />
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\item\resource\concretemix.png" />
+    <Content Include="mods\MoreRoads\modicon.png" />
+    <Content Include="mods\MoreRoads\MoreRoads.dll" />
+    <Content Include="mods\MoreRoads\MoreRoads.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+copy "$(TargetPath)" $(ProjectDir)mods\MoreRoads"
+copy "$(TargetDir)\$(TargetName).pdb" $(ProjectDir)mods\MoreRoads"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

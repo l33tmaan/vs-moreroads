@@ -1,0 +1,57 @@
+[
+{
+	ingredientPattern: "H,C,R",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"R": { type: "block", code: "stoneroad2slab-*-free", name: "brick"},
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "stoneroad2brickslab-{brick}-free", quantity: 1 }
+},
+{
+	ingredientPattern: "H,C,R",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"R": { type: "block", code: "stoneroad2brickslab-*-free", name: "brick"},
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "stoneroad2circleslab-{brick}-free", quantity: 1 }
+},
+{
+	ingredientPattern: "H,C,R",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"R": { type: "block", code: "stoneroad2circleslab-*-free", name: "brick"},
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "stoneroad2fishslab-{brick}-free", quantity: 1 }
+},
+{
+	ingredientPattern: "H,C,R",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"R": { type: "block", code: "stoneroad2fishslab-*-free", name: "brick"},
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "stoneroad2squareslab-{brick}-free", quantity: 1 }
+},
+{
+	ingredientPattern: "H,C,R",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"R": { type: "block", code: "stoneroad2squareslab-*-free", name: "brick"},
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "stoneroad2slab-{brick}-free", quantity: 1 }
+}
+]

@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "BMB",
+	ingredients: {
+		"M": { type: "item", code: "game:mortar" },
+		"B": { type: "item", code: "game:burnedbrick-*", allowedVariants: ["blue","fire"], name: "brick"},
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "edgestoneclay-{brick}-straight-north-free", quantity: 4 }
+}

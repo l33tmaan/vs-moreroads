@@ -1,0 +1,71 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"snowcover": "game:block/snow/normal1"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 7.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#stairs", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"east": { "texture": "#stairs", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"south": { "texture": "#stairs", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"west": { "texture": "#stairs", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			},
+			"children": [
+				{
+					"name": "Base-snow",
+					"from": [ 0.0, 7.01, 8.0 ], 
+					"to": [ 16.0, 9.01, 16.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#snowcover", "uv": [ 0.0, 9.0, 16.0, 11.0 ] },
+						"east": { "texture": "#snowcover", "uv": [ 0.0, 9.0, 8.0, 11.0 ] },
+						"south": { "texture": "#snowcover", "uv": [ 0.0, 9.0, 16.0, 11.0 ] },
+						"west": { "texture": "#snowcover", "uv": [ 0.0, 9.0, 8.0, 11.0 ] },
+						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+						"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Step",
+			"from": [ 0.0, 7.0, 0.0 ], 
+			"to": [ 16.0, 15.0, 8.0 ], 
+			"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#stairs", "uv": [ 0.0, 1.0, 16.0, 9.0 ] },
+				"east": { "texture": "#stairs", "uv": [ 8.0, 1.0, 16.0, 9.0 ] },
+				"south": { "texture": "#stairs", "uv": [ 0.0, 1.0, 16.0, 9.0 ] },
+				"west": { "texture": "#stairs", "uv": [ 0.0, 1.0, 8.0, 9.0 ] },
+				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+				"down": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Step-snow",
+					"from": [ 0.0, 8.01, 0.0 ], 
+					"to": [ 16.0, 10.01, 8.0 ], 
+					"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#snowcover", "uv": [ 0.0, 1.0, 16.0, 3.0 ] },
+						"east": { "texture": "#snowcover", "uv": [ 8.0, 1.0, 16.0, 3.0 ] },
+						"south": { "texture": "#snowcover", "uv": [ 0.0, 1.0, 16.0, 3.0 ] },
+						"west": { "texture": "#snowcover", "uv": [ 0.0, 1.0, 8.0, 3.0 ] },
+						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+						"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
+					}
+				}
+			]
+		}
+	]}

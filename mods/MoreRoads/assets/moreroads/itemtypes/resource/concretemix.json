@@ -1,0 +1,7 @@
+{
+	code: "concretemix",
+	texture: { base: "item/resource/concretemix" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "moreroads": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 500
+}

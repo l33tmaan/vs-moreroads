@@ -1,0 +1,56 @@
+{
+	code: "stonefootpath",
+	behaviors: [{name: "Unstable"}, {name: "NWOrientable"}],
+	attributes: {
+		handbook: {
+			groupBy: ["stonefootpath-*"]
+		},
+	},
+	variantgroups: [{ code: "type", states: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "obsidian", "peridotite", "phyllite", "sandstone", "shale", "slate", "whitemarble", "redmarble", "greenmarble", "kimberlite"] },
+		{ code:"orientation", states: ["ns", "we"] },
+	],
+	creativeinventory: { "general": ["*-ns"], "decorative": ["*-ns"], "moreroads": ["*-ns"] },
+	renderpass: "BlendNoCull",
+	shapeByType: {
+		"*-ns": { base: "game:block/basic/flat" },
+		"*-we": { base: "game:block/basic/flat", rotateY: 90 },
+	},
+	blockmaterial: "Stone",
+	vertexFlags: {
+		zOffset: 5
+	},
+	textures: {
+		all: { base: "game:block/stones/{type}_stones_*" }
+	},
+	resistance: 0.4,
+	walkspeedmultiplier: 1.15,
+	sounds: {
+		walk: "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	lightAbsorption: 0,
+	collisionbox: null,
+	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.0625, z2: 1 },
+	materialDensity: 600,
+	guiTransform: {
+		translation: { x: 0, y: 2, z: 0 },
+		rotation: { x: -22.6, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.3
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.02, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.5
+	},
+	tpHandTransform: {
+		translation: { x: -1.6, y: 0, z: -1.15 },
+		rotation: { x: -83, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.38
+	}
+}

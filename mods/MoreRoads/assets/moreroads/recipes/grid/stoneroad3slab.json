@@ -1,0 +1,37 @@
+{
+	ingredientPattern: "BGC,LTM",
+	ingredients: {
+		"B": { type: "item", code: "game:stonebrick-*", name: "brick", quantity: 16},
+		"M": { type: "item", code: "game:metalplate-*", allowedVariants: [
+	"copper",
+	"brass",
+	"chromium",
+	"lead",
+	"meteoricsteel",
+	"molybdochalkos",
+	"platinum",
+	"rhodium",
+	"stainlesssteel",
+	"steel",
+	"tin",
+	"titanium",
+	"uranium",
+	"zinc",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "gold",
+        "silver",
+        "iron"
+	],
+	name: "metal"
+},
+		"G": { type: "block", code: "game:glass-*", quantity: 16},
+		"C": { type: "item", code: "concrete", quantity: 32},
+		"T": { type: "item", code: "game:dust-temporal" },
+		"L": { type: "item", code: "game:stone-*", quantity: 32 },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "stoneroad3slab-{brick}-free", quantity: 128 }
+}

@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "BCL",
+	ingredients: {
+		"L": { type: "item", code: "game:stone-*", quantity: 2 },
+		"C": { type: "item", code: "concrete" },
+		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "stoneroad2slab-{brick}-free", quantity: 2 }
+}

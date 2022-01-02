@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "E",
+	ingredients: {
+		"E": { type: "block", code: "edgestonerock-*-cap-north-free", name: "brick"},
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "edgestonerock-{brick}-straight-north-free", quantity: 1 }
+}

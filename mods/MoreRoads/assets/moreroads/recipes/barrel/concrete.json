@@ -1,0 +1,8 @@
+{
+	code: "concrete",
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  quantity: 1 },
+		{ type: "item", code: "concretemix", quantity: 1 }
+	],
+	output: { type: "item", code: "concrete", stackSize: 8 }
+}

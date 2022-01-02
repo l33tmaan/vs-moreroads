@@ -1,0 +1,50 @@
+{
+	code: "stoneroad2square",
+	attributes: {
+		handbook: {
+			groupBy: ["stoneroad2square-*"]
+		},
+	},
+	shapeByType: { 
+		"*-snow": {base: "block/roads/roads-snow" },
+		"*": {base: "block/roads/roads" },
+	},
+	creativeinventory: { "general": ["*-free"], "construction": ["*-free"], "moreroads": ["*-free"] },
+	blockmaterial: "stone",
+	variantgroups: [
+		{code: "type", states: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+		{code: "cover", states: ["free", "snow"] },
+	],
+	replaceable: 900,
+	lightAbsorption: 99,
+	textures: {
+		"road": { 
+		base: "block/road/square-{type}",
+		},
+	},
+	drops: [{ code: "stoneroad2square-{type}-free" }],
+	resistance: 2.4,
+	walkspeedmultiplier: 1.6,
+	sideopaque: {
+		all: false,
+		down: true
+	},
+	sidesolid: {
+		all: false,
+		down: true
+	},
+	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 1, z2: 1 },
+	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 1, z2: 1 },
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1.1, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.37
+	},
+	sounds: {
+		walk: "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+}

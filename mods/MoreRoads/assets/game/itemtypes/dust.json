@@ -1,0 +1,14 @@
+{
+  "code": "dust",
+  "variantgroups": [{ "code": "type", "states": ["temporal"] }],
+  "texture": {
+    "base": "item/{type}"
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"] },
+  "maxstacksize": 64,
+  "attributes": {
+    "handbook": {
+      "groupBy": ["dust-*"]
+    }
+  }
+}

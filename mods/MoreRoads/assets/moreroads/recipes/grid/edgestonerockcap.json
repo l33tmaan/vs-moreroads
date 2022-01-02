@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "E",
+	ingredients: {
+		"E": { type: "block", name: "brick", code: "edgestonerock-*-corner-north-free", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "edgestonerock-{brick}-cap-north-free", quantity: 1 }
+}

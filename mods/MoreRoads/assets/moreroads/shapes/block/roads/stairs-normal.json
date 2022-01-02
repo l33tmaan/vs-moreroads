@@ -1,0 +1,40 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 7.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 180  },
+				"east": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 180  },
+				"south": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 180  },
+				"west": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 180  },
+				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180 },
+				"down": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "Step",
+			"from": [ 0.0, 7.0, 0.0 ], 
+			"to": [ 16.0, 15.0, 8.0 ], 
+			"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+				"east": { "texture": "#stairs", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "rotation": 90   },
+				"south": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ]},
+				"west": { "texture": "#stairs", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "rotation": 90  },
+				"down": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
+			}
+		}
+	]}

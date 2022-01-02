@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "L,C,S",
+	ingredients: {
+		"S": { type: "item", code: "game:stone-*", name: "rock", quantity: 2 },
+		"C": { type: "item", code: "game:clay-*" },
+		"L": { type: "item", code: "game:quicklime"},
+	},
+	width: 1,
+	height: 3,
+	shapeless: true,
+	name: "concretemix",
+	output: { type: "item", code: "concretemix", quantity: 2 },
+}

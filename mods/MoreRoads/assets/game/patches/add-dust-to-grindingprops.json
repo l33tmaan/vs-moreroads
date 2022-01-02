@@ -1,0 +1,16 @@
+[
+  {
+    "file": "game:itemtypes/resource/gear.json",
+    "op": "add",
+    "path": "/grindingPropsByType",
+    "value": {
+      "gear-temporal": {
+        "grindedStack": {
+          "type": "item",
+          "code": "dust-temporal",
+          "quantity": 8
+        }
+      }
+    }
+  }
+]

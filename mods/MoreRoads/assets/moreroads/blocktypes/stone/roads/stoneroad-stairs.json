@@ -1,0 +1,93 @@
+{
+	code: "stoneroadstairs",
+	attributes: {
+		handbook: {
+			groupBy: ["stoneroadstairs-*"]
+		},
+	},
+	class: "BlockStairs",
+	attributes: {
+		"noDownVariant": true
+	},
+	variantgroups: [
+		{ code: "type", states: ["blue", "fire"] },
+		{ code: "updown", states: ["up"] },
+		{ loadFromProperties: "abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	creativeinventory: { "general": ["*-up-north-free"], "construction": ["*-up-north-free"], "moreroads": ["*-up-north-free"] },
+	sidesolidByType: {	
+		"*-up-north-*": { all:false, down:true, north: true },
+		"*-up-west-*": { all:false, down:true, west: true },
+		"*-up-south-*": { all:false, down:true, south: true },
+		"*-up-east-*": { all:false, down:true, east: true },
+	},
+	sideopaqueByType	: {
+		"*-up-north-*": { all:false, down:true},
+		"*-up-west-*": { all:false, down:true},
+		"*-up-south-*": { all:false, down:true},
+		"*-up-east-*": { all:false, down:true},
+	},
+	shapebytype: { 
+		"*-up-north-free": { base: "block/roads/stairs-normal-clay", rotateY: 0 },
+		"*-up-west-free": { base: "block/roads/stairs-normal-clay", rotateY: 90 },
+		"*-up-south-free": { base: "block/roads/stairs-normal-clay", rotateY: 180 },
+		"*-up-east-free": { base: "block/roads/stairs-normal-clay", rotateY: 270 },
+		"*-up-north-snow": { base: "block/roads/stairs-snow-normal-clay", rotateY: 0 },
+		"*-up-west-snow": { base: "block/roads/stairs-snow-normal-clay", rotateY: 90 },
+		"*-up-south-snow": { base: "block/roads/stairs-snow-normal-clay", rotateY: 180 },
+		"*-up-east-snow": { base: "block/roads/stairs-snow-normal-clay", rotateY: 270 },
+	},
+	blockmaterial: "Stone",
+	textures: {
+		"stairs": { base: "block/road/stoneroad{type}1",
+		alternates: [
+			{base: "block/road/stoneroad{type}2",},
+			{base: "block/road/stoneroad{type}3",},
+			{base: "block/road/stoneroad{type}4",},
+			],
+		},
+	},
+	replaceable: 900,
+	resistance: 2.4,
+	emitSideAo: { all: true },
+	walkspeedmultiplier: 1.32,
+	collisionSelectionBoxesByType: {
+		"*-down-*": [
+			{ x1: 0, y1: 0.5, z1: 0, x2: 1, y2: 1, z2: 1 },
+			{ 
+				x1: 0, y1: 0, z1: 0.5, x2: 1, y2: 0.5, z2: 1, 
+				rotateYByType: {
+					"*-north-*": 180,
+					"*-east-*": 90,
+					"*-south-*": 0,
+					"*-west-*": 270,
+				}
+			}			
+		],
+		"*-up-*": [
+			{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 1 },
+			{ 
+				x1: 0, y1: 0.5, z1: 0.5, x2: 1, y2: 1, z2: 1, 
+				rotateYByType: {
+					"*-north-*": 180,
+					"*-east-*": 90,
+					"*-south-*": 0,
+					"*-west-*": 270,
+				}
+			}
+		],	
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1.1, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.37
+	},
+	sounds: {
+		walk: "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+}

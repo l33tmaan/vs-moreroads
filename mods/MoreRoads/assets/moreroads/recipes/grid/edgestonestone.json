@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "LL",
+	ingredients: {
+			"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+	},
+	width: 2,
+	height: 1,
+	output: { type: "block", code: "edgestonestone-{rock}-straight-north-free", quantity: 2 }
+}

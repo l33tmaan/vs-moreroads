@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "LLL",
+	ingredients: {
+		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "obsidian", "peridotite", "phyllite", "sandstone", "shale", "slate", "whitemarble", "redmarble", "greenmarble", "kimberlite"] },
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "stonefootpath-{rock}-ns", quantity: 3  }
+}

@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "S,B,B",
+	ingredients: {
+		"S": { type: "item", code: "saw-*", isTool: true  },
+"B": { type: "item", code: "plank-*", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "aged", "cypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "morewoodenpath-{wood}-ns", quantity: 4  }
+}

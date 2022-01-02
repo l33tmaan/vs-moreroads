@@ -1,0 +1,14 @@
+[
+  {
+    "file": "zeekea:itemtypes/temporal_dust.json",
+    "op": "add",
+    "path": "/grindingprops",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "game:dust-temporal",
+        "quantity": 8
+      }
+    }
+  }
+]

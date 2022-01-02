@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "E",
+	ingredients: {
+		"E": { type: "block", code: "edgestonewood-*-corner-north-free", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "aged", "cypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "edgestonewood-{wood}-cap-north-free", quantity: 1}
+}
