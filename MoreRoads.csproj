@@ -67,7 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="mods\MoreRoads\assets\game\blocktypes\liquid\concrete.json" />
+    <None Include="mods\MoreRoads\assets\game\blocktypes\liquid\concretewet.json" />
+    <None Include="mods\MoreRoads\assets\game\blocktypes\stone\concretehard.json" />
     <None Include="mods\MoreRoads\assets\game\blocktypes\stone\stonefootpath.json" />
     <None Include="mods\MoreRoads\assets\game\blocktypes\wood\generic\morepaths.json" />
     <None Include="mods\MoreRoads\assets\game\compatibility\zeekea\patches\add-dust-to-grindingprops.json" />
@@ -77,6 +78,8 @@
     <None Include="mods\MoreRoads\assets\game\patches\add-dust-to-grindingprops.json" />
     <None Include="mods\MoreRoads\assets\game\recipes\grid\morewoodenpath.json" />
     <None Include="mods\MoreRoads\assets\game\recipes\grid\stonefootpath.json" />
+    <None Include="mods\MoreRoads\assets\game\sounds\environment\concrete.ogg" />
+    <None Include="mods\MoreRoads\assets\game\sounds\walk\concrete.ogg" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brick.json" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickslab.json" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickstairs.json" />

@@ -6,8 +6,8 @@
 		},
 	},
 	shapeByType: { 
-		"*-snow": {base: "block/roads/temproads-snow" },
-		"*": {base: "block/roads/temproads" },
+		"*-snow": {base: "block/roads/roads-snow" },
+		"*": {base: "block/roads/roads" },
 	},
 	creativeinventory: { "general": ["*-free"], "construction": ["*-free"], "moreroads": ["*-free"] },
 	blockmaterial: "stone",

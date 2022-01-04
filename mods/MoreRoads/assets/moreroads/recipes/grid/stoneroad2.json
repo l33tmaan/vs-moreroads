@@ -2,9 +2,15 @@
 	ingredientPattern: "B,C,L",
 	ingredients: {
 		"L": { type: "item", code: "game:stone-*", quantity: 2 },
-		"C": { type: "item", code: "concrete" },
+		"C": { type: "block", code: "game:woodbucket" },
 		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
 	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "moreroads:concreteportion" },
+			requiresLitres: 1
+		}
+	},		
 	width: 1,
 	height: 3,
 	output: { type: "block", code: "stoneroad2-{brick}-free", quantity: 1 }

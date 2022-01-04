@@ -8,15 +8,15 @@
 		},
 		"waterTightContainerProps": {
 			"containable": true,
-			"itemsPerLitre": 1,
+			"itemsPerLitre": 100,
 			"texture": { "base": "game:block/wood/barrel/concrete" },
 			"isOpaque": true,
 			"allowSpill": true,
 			"whenSpilled": {
 				action: "PlaceBlock",
-				stack: { type: "block", code: "game:water-still-1" },
+				stack: { type: "block", code: "game:concretewet-still-1" },
 				stackByFillLevel: {
-					"10": { type: "block", code: "game:water-still-7" } 
+					"10": { type: "block", code: "game:concretewet-still-7" } 
 				}
 			}
 		}

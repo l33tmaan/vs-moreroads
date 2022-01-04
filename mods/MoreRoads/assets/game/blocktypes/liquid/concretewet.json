@@ -1,0 +1,110 @@
+{
+    "code": "concretewet",
+    "class":  "BlockConcrete",
+    "behaviors": [
+        {
+            "name": "FiniteSpreadingLiquid",
+            "properties": {
+                "spreadDelay": 1000,
+                "liquidCollisionSound": "hotmetal",
+                "sourceReplacementCode": "rock-obsidian",
+                "flowingReplacementCode": "rock-basalt",
+                "collidesWith": "lava"
+            }
+        }
+    ],
+    "attributes": {
+        "waterTightContainerProps": {
+            "containable": true,
+            "itemsPerLitre": 0.01,
+            "whenFilled": {
+                "stack": {
+                    "type": "item",
+                    "code": "moreroads:concreteportion"
+                }
+            }
+        }
+    },
+    "shape": { "base": "game:block/basic/cube" },
+    "variantgroups": [
+        {
+            "code": "flow",
+            "states": [ "n", "ne", "e", "se", "s", "sw", "w", "nw", "d", "still" ]
+        },
+        {
+            "code": "height",
+            "states": [ "1", "2", "3", "4", "5", "6", "7" ]
+        }
+    ],
+    "transientPropsByType": {
+        "concretewet-*": {
+            "convertFrom": "concretewet-*",
+            "convertTo": "concretehard-*",
+            "inGameHours": "12",
+        },
+    },
+        "drawtype": "liquid",
+        "renderpass": "liquid",
+        "matterstate": "liquid",
+        "blockmaterial": "liquid",
+        "faceCullMode": "liquid",
+        "liquidCode": "liquid",
+        "snowCoverage": false, 
+        "materialdensity": 2500,
+        "creativeinventory": {
+            "general": [ "concretewet-still-7" ],
+            "moreroads": [ "concretewet-still-7" ]
+        },
+        "replaceable": 9500,
+        "lightAbsorption": 2,
+        "sidesolid": {
+            "all": false
+        },
+        "sideopaque": {
+            "all": false
+        },
+        "drops": [],
+        "liquidLevelByType": {
+            "*-1": 1,
+            "*-2": 2,
+            "*-3": 3,
+            "*-4": 4,
+            "*-5": 5,
+            "*-6": 6,
+            "*-7": 7
+        },
+        "liquidLevel": 7,
+        "textures": {
+            "contents": { "base": "game:block/wood/barrel/concrete" },
+            "all": { "base": "game:block/wood/barrel/concrete" },
+            "specialSecondTexture": { "base": "game:block/wood/barrel/concrete2" }
+        },
+        "collisionbox": null,
+        "selectionbox": null,
+        "soundsByType": {
+            "*-still-*": {
+                "place": "game:block/lava",
+                "inside": "game:walk/concrete"
+            },
+            "*": {
+                "place": "game:block/lava",
+                "inside": "game:walk/concrete",
+                "ambient": "game:environment/concrete"
+            }
+        },
+        "heldTpIdleAnimation": "holdbothhandslarge",
+        "heldTpUseAnimation": "twohandplaceblock",
+        "tpHandTransform": {
+            "translation": {
+                "x": -1.2,
+                "y": -1.1,
+                "z": -0.8
+            },
+            "rotation": {
+                "x": -2,
+                "y": 25,
+                "z": -78
+            },
+            "scale": 0.37
+        }
+    }

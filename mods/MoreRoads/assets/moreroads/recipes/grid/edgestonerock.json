@@ -1,9 +1,15 @@
 {
 	ingredientPattern: "BCB",
 	ingredients: {
-		"C": { type: "item", code: "concrete" },
+		"C": { type: "block", code: "game:woodbucket" },
 		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
 	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "moreroads:concreteportion" },
+			requiresLitres: 1
+		}
+	},	
 	width: 3,
 	height: 1,
 	output: { type: "block", code: "edgestonerock-{brick}-straight-north-free", quantity: 4 }

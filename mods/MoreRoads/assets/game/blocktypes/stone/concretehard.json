@@ -1,0 +1,73 @@
+{
+    "code": "concretehard",
+    "class":  "BlockConcrete",
+    "shape": { "base": "game:block/basic/cube" },
+    "variantgroups": [
+        {
+            "code": "flow",
+            "states": [ "n", "ne", "e", "se", "s", "sw", "w", "nw", "d", "still" ]
+        },
+        {
+            "code": "height",
+            "states": [ "1", "2", "3", "4", "5", "6", "7" ]
+        }
+    ],
+        "blockmaterial": "stone",
+        "snowCoverageByType": {
+            "*-still-7": true,
+            "*": false,
+        }, 
+        "materialdensity": 2500,
+        "creativeinventory": {
+            "general": [ "concretehard-still-7" ],
+            "moreroads": [ "concretehard-still-7" ]
+        },
+        "replaceable": 9500,
+        "lightAbsorption": 2,
+        "drops": [],
+        "liquidLevelByType": {
+            "*-1": 1,
+            "*-2": 2,
+            "*-3": 3,
+            "*-4": 4,
+            "*-5": 5,
+            "*-6": 6,
+            "*-7": 7
+        },
+        "textures": {
+            "contents": { "base": "game:block/wood/barrel/concrete" },
+            "all": { "base": "game:block/wood/barrel/concrete" },
+            "specialSecondTexture": { "base": "game:block/wood/barrel/concrete2" }
+        },
+        "collisionbox": {
+            x1: 0,
+            y1: 0,
+            z1: 0,
+            x2: 1,
+            y2: 1,
+            z1: 1
+        },
+        "selectionbox": {
+            x1: 0,
+            y1: 0,
+            z1: 0,
+            x2: 1,
+            y2: 1,
+            z1: 1
+        },
+        "heldTpIdleAnimation": "holdbothhandslarge",
+        "heldTpUseAnimation": "twohandplaceblock",
+        "tpHandTransform": {
+            "translation": {
+                "x": -1.2,
+                "y": -1.1,
+                "z": -0.8
+            },
+            "rotation": {
+                "x": -2,
+                "y": 25,
+                "z": -78
+            },
+            "scale": 0.37
+        }
+    }

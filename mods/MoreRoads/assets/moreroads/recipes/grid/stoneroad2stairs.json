@@ -2,9 +2,15 @@
 	ingredientPattern: "B_,CL",
 	ingredients: {
 		"L": { type: "item", code: "game:stone-*" },
-		"C": { type: "item", code: "concrete" },
+		"C": { type: "block", code: "game:woodbucket" },
 		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
 	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "moreroads:concreteportion" },
+			requiresLitres: 1
+		}
+	},	
 	width: 2,
 	height: 2,
 	output: { type: "block", code: "stoneroad2stairs-{brick}-up-north-free", quantity: 1 }
