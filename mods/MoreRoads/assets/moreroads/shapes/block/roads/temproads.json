@@ -1,0 +1,17 @@
+﻿{
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 15.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#roadhor", "uv": [ 0.0, 0.0, 16.0, 15.0 ] },
+                "east": { "texture": "#roadhor", "uv": [ 0.0, 0.0, 16.0, 15.0 ] },
+                "south": { "texture": "#roadhor", "uv": [ 0.0, 0.0, 16.0, 15.0 ] },
+                "west": { "texture": "#roadhor", "uv": [ 0.0, 0.0, 16.0, 15.0 ] },
+                "up": { "texture": "#roadver", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#roadver", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

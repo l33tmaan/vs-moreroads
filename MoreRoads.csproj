@@ -182,6 +182,8 @@
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-brick.json" />
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-normal-clay.json" />
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\stairs-snow-normal.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\temproads-snow.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\temproads.json" />
     <None Include="mods\MoreRoads\modinfo.json" />
   </ItemGroup>
   <ItemGroup>

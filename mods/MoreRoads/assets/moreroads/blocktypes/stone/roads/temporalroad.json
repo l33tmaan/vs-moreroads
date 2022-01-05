@@ -6,8 +6,8 @@
 		},
 	},
 	shapeByType: { 
-		"*-snow": {base: "block/roads/roads-snow" },
-		"*": {base: "block/roads/roads" },
+		"*-snow": {base: "block/roads/temproads-snow" },
+		"*": {base: "block/roads/temproads" },
 	},
 	creativeinventory: { "general": ["*-free"], "construction": ["*-free"], "moreroads": ["*-free"] },
 	blockmaterial: "stone",
@@ -21,7 +21,7 @@
 	glowLevel: 32,
 	textures: {
 		"snowcover": { base: "game:block/snow/normal1" },
-		horizontals: { 
+		"roadhor": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlay"],
 			alternates: [
@@ -33,7 +33,7 @@
 			overlays: ["block/road/temporaloverlay"],},
 			],		
 		},
-		verticals: { 
+		"roadver": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlaytop"],
 			alternates: [

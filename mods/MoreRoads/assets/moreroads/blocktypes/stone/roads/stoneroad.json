@@ -18,7 +18,7 @@
 	replaceable: 900,
 	lightAbsorption: 99,
 	textures: {
-		"road": { base: "block/road/stoneroad{type}1",
+		all: { base: "block/road/stoneroad{type}1",
 		alternates: [
 			{base: "block/road/stoneroad{type}2",},
 			{base: "block/road/stoneroad{type}3",},
