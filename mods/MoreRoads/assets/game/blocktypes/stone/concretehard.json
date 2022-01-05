@@ -21,8 +21,8 @@
 	    },    
         "materialdensity": 2500,
         "creativeinventory": {
-            "general": [ "concretehard-*" ],
-            "moreroads": [ "concretehard-*" ]
+            "general": [ "concretehard-7" ],
+            "moreroads": [ "concretehard-7" ]
         },
 	    walkspeedmultiplier: 1.15,
         "replaceable": 9500,
