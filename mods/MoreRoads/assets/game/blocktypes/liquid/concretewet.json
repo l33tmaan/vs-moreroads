@@ -1,6 +1,7 @@
 {
     "code": "concretewet",
-    "class":  "BlockConcrete",
+    "class": "BlockConcrete",
+    "entityClass": "Transient",
     "behaviors": [
         {
             "name": "FiniteSpreadingLiquid",
@@ -23,7 +24,14 @@
                     "code": "moreroads:concreteportion"
                 }
             }
-        }
+        },
+        "transientPropsByType": {
+            "concretewet-*": {
+                "convertFrom": "concretewet-{flow}-{height}",
+                "convertTo": "concretehard-{height}",
+                "inGameHours": "12",
+            },
+        },    
     },
     "shape": { "base": "game:block/basic/cube" },
     "variantgroups": [
@@ -36,13 +44,6 @@
             "states": [ "1", "2", "3", "4", "5", "6", "7" ]
         }
     ],
-    "transientPropsByType": {
-        "concretewet-*": {
-            "convertFrom": "concretewet-*",
-            "convertTo": "concretehard-*",
-            "inGameHours": "12",
-        },
-    },
         "drawtype": "liquid",
         "renderpass": "liquid",
         "matterstate": "liquid",

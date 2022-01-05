@@ -140,6 +140,13 @@
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroad3stairs.json" />
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroadslab.json" />
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\stoneroadstairs.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube1.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube2.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube3.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube4.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube5.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube6.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\shapes\block\basic\cube7.json" />
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clay-snow.json" />
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-clay.json" />
     <None Include="mods\MoreRoads\assets\moreroads\shapes\block\roads\edgestone-claycap-snow.json" />
