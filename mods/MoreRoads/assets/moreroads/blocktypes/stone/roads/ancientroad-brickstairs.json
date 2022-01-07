@@ -2,7 +2,7 @@
 	code: "stoneroad2brickstairs",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2brickstairs-*-up-north-free"]
+			groupBy: ["stoneroad2brickstairs-*-up-*-free"]
 		},
 		"noDownVariant": true
 	},

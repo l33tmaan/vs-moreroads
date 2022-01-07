@@ -4,7 +4,7 @@
 	attributes: {
 		"noDownVariant": true,
 		handbook: {
-			groupBy: ["stoneroad2stairs-*-up-north-free"]
+			groupBy: ["stoneroad2stairs-*-up-*-free"]
 		},
 	},
 	variantgroups: [

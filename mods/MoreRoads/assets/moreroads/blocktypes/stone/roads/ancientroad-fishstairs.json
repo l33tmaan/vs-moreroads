@@ -2,7 +2,7 @@
 	code: "stoneroad2fishstairs",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2fishstairs-*-up-north-free"]
+			groupBy: ["stoneroad2fishstairs-*-up-*-free"]
 		},
 		"noDownVariant": true
 	},

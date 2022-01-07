@@ -2,7 +2,7 @@
 	code: "stoneroad2squarestairs",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2squarestairs-*-up-north-free"]
+			groupBy: ["stoneroad2squarestairs-*-up-*-free"]
 		},
 		"noDownVariant": true
 	},
