@@ -2,7 +2,7 @@
 	code: "stoneroad2slab",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2slab-*"]
+			groupBy: ["stoneroad2slab-*-free"]
 		},
 	},
 	shapeByType: { 

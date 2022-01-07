@@ -2,7 +2,7 @@
 	code: "stoneroad2brick",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2brick-*"]
+			groupBy: ["stoneroad2brick-*-free"]
 		},
 	},
 	shapeByType: { 

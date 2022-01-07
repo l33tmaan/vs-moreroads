@@ -2,13 +2,11 @@
 	code: "stoneroadstairs",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroadstairs-*"]
+			groupBy: ["stoneroadstairs-*-up-north-free"]
 		},
-	},
-	class: "BlockStairs",
-	attributes: {
 		"noDownVariant": true
 	},
+	class: "BlockStairs",
 	variantgroups: [
 		{ code: "type", states: ["blue", "fire"] },
 		{ code: "updown", states: ["up"] },

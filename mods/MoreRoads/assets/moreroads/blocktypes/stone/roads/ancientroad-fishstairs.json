@@ -2,13 +2,11 @@
 	code: "stoneroad2fishstairs",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2fishstairs-*"]
+			groupBy: ["stoneroad2fishstairs-*-up-north-free"]
 		},
-	},
-	class: "BlockStairs",
-	attributes: {
 		"noDownVariant": true
 	},
+	class: "BlockStairs",
 	variantgroups: [
 		{ code: "type", states: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
 		{ code: "updown", states: ["up"] },

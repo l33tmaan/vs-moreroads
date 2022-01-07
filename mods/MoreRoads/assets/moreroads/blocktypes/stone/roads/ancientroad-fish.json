@@ -2,7 +2,7 @@
 	code: "stoneroad2fish",
 	attributes: {
 		handbook: {
-			groupBy: ["stoneroad2fish-*"]
+			groupBy: ["stoneroad2fish-*-free"]
 		},
 	},
 	shapeByType: { 
