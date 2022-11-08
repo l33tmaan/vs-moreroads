@@ -1,4 +1,10 @@
-﻿1.5.0
+﻿1.X.X
+- Gave shovel the ability to convert dirt to 'loose dirt', which then combines with stones to make stone paths
+- Added the ability to place rock & stones & cement into a block & combine with stone bricks to make stone roads
+- Added the ability to place clay bricks and mortar into a block to make clay roads
+- IDK how to make temporal roads lol
+
+1.5.0
 - Now uses Expanded Matter as a dependency (for temporal dust) - DONE!!!
 - Temporal dust removed - DONE!!!
 - Stone path road variants added (basically Stone Path Variants but with my own textures lol)
