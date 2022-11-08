@@ -5,11 +5,11 @@
 - IDK how to make temporal roads lol
 
 1.5.0
-- Now uses Expanded Matter as a dependency (for temporal dust) - DONE!!!
-- Temporal dust removed - DONE!!!
-- Stone path variants added (basically Stone Path Variants but with my own textures lol) - DONE!!!
-- Things generally cleaned up
-- Road speeds buffed - DONE!!!
-- Wooden paths & stone foot paths moved to moreroads domain - DONE!!!
-- Wood edging no longer requires mortar - DONE!!!
-- Wood path recipe changed - DONE!!!
+- Now uses Expanded Matter as a dependency (for temporal dust)
+- Temporal dust removed
+- Road speeds buffed
+- Stone path variants added (basically Stone Path Variants but with my own textures lol)
+- Files generally cleaned up
+- Wooden paths & stone foot paths moved to moreroads domain!
+- Wood edging no longer requires mortar
+- Wood path recipe changed
