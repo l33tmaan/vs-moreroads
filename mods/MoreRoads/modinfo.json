@@ -2,7 +2,7 @@
   "type": 2,
   "texturesize": 32,
   "name": "More Roads & Paths",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "networkversion": null,
   "description": "Adds new path variants, new roads, and edge decor.",
   "modid": "moreroads",
@@ -11,4 +11,5 @@
   "side": "Universal",
   "requiredonclient": true,
   "requiredonserver": true,
+  "dependencies": {"em": "1.0.1"}
 }

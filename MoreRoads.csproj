@@ -71,15 +71,13 @@
     <None Include="mods\MoreRoads\assets\game\blocktypes\stone\concretehard.json" />
     <None Include="mods\MoreRoads\assets\game\blocktypes\stone\stonefootpath.json" />
     <None Include="mods\MoreRoads\assets\game\blocktypes\wood\generic\morepaths.json" />
-    <None Include="mods\MoreRoads\assets\game\compatibility\zeekea\patches\add-dust-to-grindingprops.json" />
-    <None Include="mods\MoreRoads\assets\game\itemtypes\dust.json" />
     <None Include="mods\MoreRoads\assets\game\lang\en.json" />
     <None Include="mods\MoreRoads\assets\game\lang\ru.json" />
-    <None Include="mods\MoreRoads\assets\game\patches\add-dust-to-grindingprops.json" />
     <None Include="mods\MoreRoads\assets\game\recipes\grid\morewoodenpath.json" />
     <None Include="mods\MoreRoads\assets\game\recipes\grid\stonefootpath.json" />
     <None Include="mods\MoreRoads\assets\game\sounds\environment\concrete.ogg" />
     <None Include="mods\MoreRoads\assets\game\sounds\walk\concrete.ogg" />
+    <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\paths\stonepath.json" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brick.json" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickslab.json" />
     <None Include="mods\MoreRoads\assets\moreroads\blocktypes\stone\roads\ancientroad-brickstairs.json" />
@@ -382,7 +380,6 @@
     <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal7.png" />
     <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal8.png" />
     <Content Include="mods\MoreRoads\assets\game\textures\block\wood\path\walnut\normal9.png" />
-    <Content Include="mods\MoreRoads\assets\game\textures\item\temporal.png" />
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite1.png" />
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite2.png" />
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\ancientroadandesite3.png" />
@@ -555,10 +552,12 @@
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgewalnut.png" />
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\wood\barrel\concrete.png" />
     <Content Include="mods\MoreRoads\assets\moreroads\textures\item\resource\concretemix.png" />
+    <Content Include="mods\MoreRoads\changelog.txt" />
     <Content Include="mods\MoreRoads\modicon.png" />
     <Content Include="mods\MoreRoads\MoreRoads.dll" />
     <Content Include="mods\MoreRoads\MoreRoads.pdb" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

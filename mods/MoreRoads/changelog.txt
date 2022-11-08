@@ -1,0 +1,6 @@
+﻿1.5.0
+- Now uses Expanded Matter as a dependency (for temporal dust) - DONE!!!
+- Temporal dust removed - DONE!!!
+- Stone path road variants added (basically Stone Path Variants but with my own textures lol)
+- Things generally cleaned up
+- Road speeds buffed

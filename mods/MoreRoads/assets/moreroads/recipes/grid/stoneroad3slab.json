@@ -28,7 +28,7 @@
 },
 		"G": { type: "block", code: "game:glass-*", quantity: 16},
 		"C": { type: "block", code: "game:woodbucket" },
-		"T": { type: "item", code: "game:dust-temporal" },
+		"T": { type: "item", code: "em:powdered-metal-temporal" },
 		"L": { type: "item", code: "game:stone-*", quantity: 32 },
 	},
 	attributes: {

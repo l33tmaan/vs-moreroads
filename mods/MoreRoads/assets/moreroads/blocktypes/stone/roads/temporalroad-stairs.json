@@ -57,7 +57,7 @@
 	glowLevel: 32,
 	resistance: 2.4,
 	emitSideAo: { all: true },
-	walkspeedmultiplier: 1.75,
+	walkspeedmultiplier: 2.5,
 	collisionSelectionBoxesByType: {
 		"*-down-*": [
 			{ x1: 0, y1: 0.5, z1: 0, x2: 1, y2: 1, z2: 1 },

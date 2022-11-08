@@ -23,7 +23,7 @@
 		all: { base: "game:block/stones/{type}_stones_*" }
 	},
 	resistance: 0.4,
-	walkspeedmultiplier: 1.15,
+	walkspeedmultiplier: 1.3,
 	sounds: {
 		walk: "game:walk/stone",
 		byTool: {

@@ -28,7 +28,7 @@
 	},
 	drops: [{ code: "stoneroad-{type}-free" }],
 	resistance: 2.4,
-	walkspeedmultiplier: 1.45,
+	walkspeedmultiplier: 1.6,
 	sideopaque: {
 		all: false,
 		down: true

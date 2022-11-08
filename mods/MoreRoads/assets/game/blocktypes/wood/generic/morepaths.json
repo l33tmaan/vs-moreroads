@@ -23,7 +23,7 @@
 		all: { base: "game:block/wood/path/{type}/normal*" }
 	},
 	resistance: 0.4,
-	walkspeedmultiplier: 1.15,
+	walkspeedmultiplier: 1.3,
 	sounds: {
 		"place": "block/planks",
 		"hit": "block/planks",

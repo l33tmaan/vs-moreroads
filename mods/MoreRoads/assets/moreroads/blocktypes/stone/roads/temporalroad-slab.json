@@ -35,7 +35,7 @@
 	},
 	drops: [{ code: "stoneroad3slab-{type}-free" }],
 	resistance: 2.4,
-	walkspeedmultiplier: 2,
+	walkspeedmultiplier: 2.5,
 	sideopaque: {
 		all: false,
 		down: true
