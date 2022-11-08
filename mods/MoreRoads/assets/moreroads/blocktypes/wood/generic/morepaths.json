@@ -12,8 +12,8 @@
 	creativeinventory: { "general": ["*-ns"], "decorative": ["*-ns"], "moreroads": ["*-ns"] },
 	renderpass: "BlendNoCull",
 	shapeByType: {
-		"*-ns": { base: "block/basic/flat" },
-		"*-we": { base: "block/basic/flat", rotateY: 90 },
+		"*-ns": { base: "game:block/basic/flat" },
+		"*-we": { base: "game:block/basic/flat", rotateY: 90 },
 	},
 	blockmaterial: "Wood",
 	vertexFlags: {
@@ -25,10 +25,10 @@
 	resistance: 0.4,
 	walkspeedmultiplier: 1.3,
 	sounds: {
-		"place": "block/planks",
-		"hit": "block/planks",
-		"break": "block/planks",
-		"walk": "walk/wood"
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
 	},
 	sidesolid: { all: false },
 	sideopaque: { all: false },

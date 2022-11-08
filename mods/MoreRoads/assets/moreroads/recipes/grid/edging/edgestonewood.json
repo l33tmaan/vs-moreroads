@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "SBB",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"B": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "aged", "cypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "edgestonewood-{wood}-straight-north-free", quantity: 4 }
+}

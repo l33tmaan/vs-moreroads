@@ -1,0 +1,50 @@
+﻿{
+	code: "stonepathslab",
+	shape: { base: "game:block/basic/slab/slab-lowered-{cover}" },
+	creativeinventory: { "general": ["*-free"], "decorative": ["*-free"], "moreroads": ["*-free"] },
+	blockmaterial: "Gravel",
+	replaceable: 900,
+	lightAbsorption: 99,
+	variantgroups: [
+		{ code: "type", states: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble" ] },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	textures: {
+		sides: { 
+			base: "block/stonepath/{type}1",
+			alternates: [ {base: "block/stonepath/{type}2"}, {base: "block/stonepath/{type}3"}, {base: "block/stonepath/{type}4"}, {base: "block/stonepath/{type}5"}, {base: "block/stonepath/{type}6"} ],
+		},
+	},
+	attributes: {
+		handbook: {
+			groupBy: ["stonepathslab-*-free"]
+		},
+		liquidBarrierOnSides: [ 0.5, 0.5, 0.5, 0.5 ]
+	},
+	drops: [{ code: "stonepathslab-{type}-free" }],
+	resistance: 2.4,
+	walkspeedmultiplier: 1.30,
+	faceCullMode: "FlushExceptTop",
+	sideopaque: {
+		all: false,
+		down: true
+	},
+	sidesolid: {
+		all: false,
+		down: true
+	},
+	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.5, z2: 1 },
+	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.5, z2: 1 },
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	sounds: {
+		place: "game:block/gravel",
+		break: "game:block/gravel",
+		hit: "game:block/gravel",
+		walk: "game:walk/gravel"
+	}
+}

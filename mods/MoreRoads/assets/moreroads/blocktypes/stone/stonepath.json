@@ -23,14 +23,14 @@
 	},
 	textures: {
 		all: { base: "block/stonepath/{type}1",
-		alternates: [
-			{base: "block/stonepath/{type}2",},
-			{base: "block/stonepath/{type}3",},
-			{base: "block/stonepath/{type}4",},
-			{base: "block/stonepath/{type}5",},
-			{base: "block/stonepath/{type}6",},
-			],
-		},
+			alternates: [
+				{base: "block/stonepath/{type}2",},
+				{base: "block/stonepath/{type}3",},
+				{base: "block/stonepath/{type}4",},
+				{base: "block/stonepath/{type}5",},
+				{base: "block/stonepath/{type}6",},
+				],
+			},
 	},
 	resistanceByType: {
 		"*-snow": 0.2,

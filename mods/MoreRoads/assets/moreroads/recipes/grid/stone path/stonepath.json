@@ -1,0 +1,10 @@
+﻿{
+	ingredientPattern: "S__,_LL,_LL",
+	ingredients: {
+		"S": { type: "block", code: "game:soil-*" },
+		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble"] },
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "stonepath-{rock}-free", quantity: 1  }
+}
