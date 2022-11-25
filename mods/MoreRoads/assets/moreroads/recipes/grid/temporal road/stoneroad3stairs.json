@@ -34,10 +34,10 @@
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "moreroads:concreteportion" },
-			requiresLitres: 32
+			requiresLitres: 3.2
 		}
 	},	
 	width: 3,
 	height: 3,
-	output: { type: "block", code: "stoneroad3stairs-{brick}-up-north-free", quantity: 128 }
+	output: { type: "block", code: "stoneroad3stairs-{brick}-up-north-free", quantity: 16 }
 }

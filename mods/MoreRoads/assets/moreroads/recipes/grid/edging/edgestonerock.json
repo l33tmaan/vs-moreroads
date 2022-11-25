@@ -1,3 +1,4 @@
+[
 {
 	ingredientPattern: "BCB",
 	ingredients: {
@@ -7,10 +8,22 @@
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "moreroads:concreteportion" },
-			requiresLitres: 1
+			requiresLitres: 0.1
 		}
 	},	
 	width: 3,
 	height: 1,
 	output: { type: "block", code: "edgestonerock-{brick}-straight-north-free", quantity: 4 }
+},
+
+{
+	ingredientPattern: "BMB",
+	ingredients: {
+		"M": { type: "item", code: "game:mortar" },
+		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
+	},
+	width: 3,
+	height: 1,
+	output: { type: "block", code: "edgestonerock-{brick}-straight-north-free", quantity: 4 }
 }
+]
