@@ -6,7 +6,7 @@
   "networkversion": null,
   "description": "Adds new path variants, new roads, and edge decor.",
   "modid": "moreroads",
-  "authors": ["l33tmaan, Stroam"],
+  "authors": ["l33tmaan", "Stroam"],
 
   "side": "Universal",
   "requiredonclient": true,

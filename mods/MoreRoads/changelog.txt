@@ -3,6 +3,7 @@
 - Added the ability to place rock & stones & cement into a block & combine with stone bricks to make stone roads
 - Added the ability to place clay bricks and mortar into a block to make clay roads
 - IDK how to make temporal roads lol
+- Road blocks obstruct water flow
 
 1.5.1
 - Concrete powder looks proper when in barrels
