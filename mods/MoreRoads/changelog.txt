@@ -3,14 +3,14 @@
 - Added the ability to place rock & stones & cement into a block & combine with stone bricks to make stone roads
 - Added the ability to place clay bricks and mortar into a block to make clay roads
 - IDK how to make temporal roads lol
-- Road blocks obstruct water flow
 
 1.5.2
 
 - Stair textures aligned on all rotations - DONE!!!
-- Snow texture fixes implemented (thanks to conninator2000)
-- Snow shapes fixed; generally optimized
+- Snow texture fixes implemented (thanks to conninator2000) - DONE!!!
+- Snow shapes fixed; generally optimized - DONE!!!
 - blendedOverlays used to minimize texture usage
+- Road blocks obstruct water flow (minor visual glitches; Tyron plz fix) - DONE!!!
 
 1.5.1
 - Concrete powder looks proper when in barrels
