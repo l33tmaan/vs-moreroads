@@ -9,13 +9,13 @@
 		"snowcover": [16,16]
 	},
 	"textures": {
-		"snowcover": "game:block/snow/normal2"
+		"snowcover": "game:block/liquid/snow/normal1"
 	},
 	"elements": [
 		{
 			"name": "Cube1",
-			"from": [ 0.0, 0.0, 0.0 ], 
-			"to": [ 16.0, 2.0, 4.0 ], 
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 2.0, 4.0 ],
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 2.0 ], "rotation": 180 },
@@ -28,27 +28,25 @@
 			"children": [
 				{
 					"name": "Cube-snow1",
-					"from": [ 0.0, 2.0, 0.0 ], 
-					"to": [ 16.0, 3.0, 4.0 ], 
+					"from": [ 0.0, 2.0, 0.0 ],
+					"to": [ 16.0, 4.0, 4.0 ],
 					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
 					"faces": {
-						"north": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-						"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-						"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-						"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
-						"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+						"north": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 2.0 ] },
+						"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 2.0 ] },
+						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
 					}
 				}
 			]
 		},
 		{
 			"name": "Cube2",
-			"from": [ 0.0, 0.0, 4.0 ], 
-			"to": [ 4.0, 2.0, 16.0 ], 
+			"from": [ 0.0, 0.0, 4.0 ],
+			"to": [ 4.0, 2.0, 16.0 ],
 			"rotationOrigin": [ 0.0, 0.0, 4.0 ],
 			"faces": {
-				"north": { "texture": "#null", "uv": [ 2.5, 0.0, 6.5, 2.0 ] },
 				"east": { "texture": "#null", "uv": [ 4.0, 0.0, 16.0, 2.0 ], "rotation": 180 },
 				"south": { "texture": "#null", "uv": [ 2.5, 0.0, 6.5, 2.0 ] },
 				"west": { "texture": "#null", "uv": [ 4.0, 0.0, 16.0, 2.0 ] },
@@ -58,28 +56,24 @@
 			"children": [
 				{
 					"name": "Cube-snow2",
-					"from": [ 0.0, 2.0, 0.0 ], 
-					"to": [ 4.0, 3.0, 12.0 ], 
+					"from": [ 0.0, 2.0, 0.0 ],
+					"to": [ 4.0, 4.0, 12.0 ],
 					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
 					"faces": {
-						"north": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-						"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
-						"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-						"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
-						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 12.0 ] },
-						"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 12.0 ] }
+						"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+						"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 2.0 ] },
+						"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 4.0, 12.0 ] }
 					},
 					"children": [
 						{
 							"name": "Cube5",
-							"from": [ 4.0, -2.0, 0.0 ], 
-							"to": [ 16.0, -1.0, 12.0 ], 
+							"from": [ 4.0, -2.0, 0.0 ],
+							"to": [ 16.0, 0.0, 12.0 ],
 							"rotationOrigin": [ 4.0, -2.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
-								"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
-								"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
-								"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+								"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+								"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
 								"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 12.0 ] },
 								"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 12.0 ] }
 							}

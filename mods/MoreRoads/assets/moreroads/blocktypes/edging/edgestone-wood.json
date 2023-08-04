@@ -44,6 +44,7 @@
 		{ code: "cover", states: ["free", "snow"] },
 	],
 	textures: {
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"null": { base: "block/road/woodedge{type}",
 		},
 	},

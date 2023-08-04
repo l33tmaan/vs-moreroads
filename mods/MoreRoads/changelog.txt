@@ -5,6 +5,13 @@
 - IDK how to make temporal roads lol
 - Road blocks obstruct water flow
 
+1.5.2
+
+- Stair textures aligned on all rotations - DONE!!!
+- Snow texture fixes implemented (thanks to conninator2000)
+- Snow shapes fixed; generally optimized
+- blendedOverlays used to minimize texture usage
+
 1.5.1
 - Concrete powder looks proper when in barrels
 - moreroads:incontainer-item-concreteportion added

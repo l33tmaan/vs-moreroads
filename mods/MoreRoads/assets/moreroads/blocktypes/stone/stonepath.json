@@ -4,7 +4,6 @@
 		handbook: {
 			groupBy: ["stonepath-*-free"]
 		},
-		liquidBarrierOnSides: [ 1.0, 1.0, 1.0, 1.0 ]
 	},
 	shapeByType: { 
 		"*-snow": {base: "block/roads/roads-snow" },
@@ -22,15 +21,8 @@
 		"*-snow": [{name: "BreakSnowFirst"}]
 	},
 	textures: {
-		all: { base: "block/stonepath/{type}1",
-			alternates: [
-				{base: "block/stonepath/{type}2",},
-				{base: "block/stonepath/{type}3",},
-				{base: "block/stonepath/{type}4",},
-				{base: "block/stonepath/{type}5",},
-				{base: "block/stonepath/{type}6",},
-				],
-			},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
+		"road": { base: "block/stonepath/{type}*" },
 	},
 	resistanceByType: {
 		"*-snow": 0.2,
@@ -46,8 +38,8 @@
 		all: false,
 		down: true
 	},
-	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 1, z2: 1 },
-	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 1, z2: 1 },
+	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.9375, z2: 1 },
+	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.9375, z2: 1 },
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	tpHandTransform: {
 		translation: { x: -1.2, y: -1.1, z: -0.8 },

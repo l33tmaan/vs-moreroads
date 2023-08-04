@@ -38,7 +38,20 @@
 	},
 	blockmaterial: "Stone",
 	textures: {
-		"stairs": { 
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
+		"stairshor": { 
+			base: "block/road/ancientroad{type}1",
+			overlays: ["block/road/temporaloverlaytop"],
+			alternates: [
+			{base: "block/road/ancientroad{type}2",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}3",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}4",
+			overlays: ["block/road/temporaloverlaytop"],},
+			],
+		},
+		"stairsvert": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlaytop"],
 			alternates: [

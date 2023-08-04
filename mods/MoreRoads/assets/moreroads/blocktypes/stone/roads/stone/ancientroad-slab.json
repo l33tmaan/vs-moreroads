@@ -18,14 +18,8 @@
 	replaceable: 900,
 	lightAbsorption: 99,
 	textures: {
-		"slab": { 
-		base: "block/road/ancientroad{type}1",
-		alternates: [
-			{base: "block/road/ancientroad{type}2",},
-			{base: "block/road/ancientroad{type}3",},
-			{base: "block/road/ancientroad{type}4",},
-			],
-		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
+		"slab": { base: "block/road/ancientroad{type}*" },
 	},
 	drops: [{ code: "stoneroad2slab-{type}-free" }],
 	resistance: 2.4,
@@ -38,8 +32,8 @@
 		all: false,
 		down: true
 	},
-	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.5, z2: 1 },
-	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.5, z2: 1 },
+	selectionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.4375, z2: 1 },
+	collisionbox: { x1: 0, y1: 0, z1:0, x2: 1, y2: 0.4375, z2: 1 },
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	tpHandTransform: {
 		translation: { x: -1.2, y: -1.1, z: -0.8 },

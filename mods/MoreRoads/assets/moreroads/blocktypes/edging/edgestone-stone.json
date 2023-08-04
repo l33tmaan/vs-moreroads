@@ -44,8 +44,8 @@
 		{ code: "cover", states: ["free", "snow"] },
 	],
 	textures: {
-		"null": { base: "game:block/stone/rock/{type}1",
-		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
+		"null": { base: "game:block/stone/rock/{type}*" },
 	},
 	resistance: 2.4,
 	sideopaque: {

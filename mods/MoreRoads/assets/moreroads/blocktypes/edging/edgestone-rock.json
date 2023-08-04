@@ -44,8 +44,8 @@
 		{ code: "cover", states: ["free", "snow"] },
 	],
 	textures: {
-		"null": { base: "block/road/rockedge{type}",
-		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
+		"null": { base: "block/road/rockedge{type}" },
 	},
 	resistance: 2.4,
 	sideopaque: {

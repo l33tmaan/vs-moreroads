@@ -1,36 +1,40 @@
 {
 	"editor": {
+		"collapsedPaths": "Root/Cube4,Root/Cube11,Root/Cube12,Root/Cube6,Root/Cube21,Root/Cube1/Cube3,Root/Cube18",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
 	"elements": [
 		{
 			"name": "Base",
-			"from": [ 0.0, 0.0, 0.0 ], 
-			"to": [ 16.0, 7.0, 16.0 ], 
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 7.0, 16.0 ],
 			"faces": {
-				"north": { "texture": "#stairs", "uv": [ 0.0, 8.0, 16.0, 15.0 ] },
-				"east": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
-				"south": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
-				"west": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
-				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
-				"down": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 }
+				"north": { "texture": "#stairshor", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"east": { "texture": "#stairshor", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"south": { "texture": "#stairshor", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"west": { "texture": "#stairshor", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"up": { "texture": "#stairsvert", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#stairsvert", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 			}
 		},
 		{
 			"name": "Step",
-			"from": [ 0.0, 7.0, 0.0 ], 
-			"to": [ 16.0, 15.0, 8.0 ], 
+			"from": [ 0.0, 7.0, 0.0 ],
+			"to": [ 16.0, 15.0, 8.0 ],
 			"rotationOrigin": [ 0.0, -1.0, 0.0 ],
 			"faces": {
-				"north": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
-				"east": { "texture": "#stairs", "uv": [ 6.5, 0.0, 14.5, 8.0 ] },
-				"south": { "texture": "#stairs", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
-				"west": { "texture": "#stairs", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
-				"up": { "texture": "#stairs", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "rotation": 90 },
-				"down": { "texture": "#stairs", "uv": [ -1.0, 0.0, 15.0, 8.0 ] }
+				"north": { "texture": "#stairshor", "uv": [ 0.0, 1.0, 16.0, 9.0 ] },
+				"east": { "texture": "#stairshor", "uv": [ 8.0, 1.0, 16.0, 9.0 ] },
+				"south": { "texture": "#stairshor", "uv": [ 0.0, 1.0, 16.0, 9.0 ] },
+				"west": { "texture": "#stairshor", "uv": [ 0.0, 1.0, 8.0, 9.0 ] },
+				"up": { "texture": "#stairsvert", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
 			}
 		}
 	]}

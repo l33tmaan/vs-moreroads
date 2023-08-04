@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreRoads", "MoreRoads.csproj", "{D77A0AEC-8811-4A60-915B-A590A151AC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Start", "..\Start\Start.csproj", "{2893C2C6-3D1A-4261-AC14-A7AE554DC96E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D77A0AEC-8811-4A60-915B-A590A151AC96} = {D77A0AEC-8811-4A60-915B-A590A151AC96}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{D77A0AEC-8811-4A60-915B-A590A151AC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77A0AEC-8811-4A60-915B-A590A151AC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77A0AEC-8811-4A60-915B-A590A151AC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2893C2C6-3D1A-4261-AC14-A7AE554DC96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2893C2C6-3D1A-4261-AC14-A7AE554DC96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2893C2C6-3D1A-4261-AC14-A7AE554DC96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2893C2C6-3D1A-4261-AC14-A7AE554DC96E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

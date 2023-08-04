@@ -1,38 +1,39 @@
 {
 	"editor": {
+		"collapsedPaths": "Root/Cube4,Root/Cube11,Root/Cube12,Root/Cube6,Root/Cube21,Root/Cube1/Cube3,Root/Cube18",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
+	"textureSizes": {
+	},
 	"textures": {
-		"snowcover": "game:block/snow/normal1"
+		"snowcover": "game:block/liquid/snow/normal1"
 	},
 	"elements": [
 		{
 			"name": "Cube",
-			"from": [ 0.0, 0.0, 0.0 ], 
-			"to": [ 16.0, 7.0, 16.0 ], 
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 7.0, 16.0 ],
 			"faces": {
-				"north": { "texture": "#slab", "uv": [ 0.0, 8.0, 16.0, 15.0 ] },
-				"east": { "texture": "#slab", "uv": [ 0.0, 8.0, 16.0, 15.0 ] },
-				"south": { "texture": "#slab", "uv": [ 0.0, 8.0, 16.0, 15.0 ] },
-				"west": { "texture": "#slab", "uv": [ 0.0, 8.0, 16.0, 15.0 ] },
-				"up": { "texture": "#slab", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"north": { "texture": "#slab", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"east": { "texture": "#slab", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"south": { "texture": "#slab", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
+				"west": { "texture": "#slab", "uv": [ 0.0, 9.0, 16.0, 16.0 ] },
 				"down": { "texture": "#slab", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 			},
 			"children": [
 				{
 					"name": "Cube-snow",
-					"from": [ 0.0, 7.01, 0.0 ], 
-					"to": [ 16.0, 9.01, 16.0 ], 
+					"from": [ 0.0, 7.01, 0.0 ],
+					"to": [ 16.0, 9.01, 16.0 ],
 					"faces": {
 						"north": { "texture": "#snowcover", "uv": [ 0.0, 8.0, 16.0, 10.0 ] },
 						"east": { "texture": "#snowcover", "uv": [ 0.0, 8.0, 16.0, 10.0 ] },
 						"south": { "texture": "#snowcover", "uv": [ 0.0, 8.0, 16.0, 10.0 ] },
 						"west": { "texture": "#snowcover", "uv": [ 0.0, 8.0, 16.0, 10.0 ] },
-						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-						"down": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+						"up": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 					}
 				}
 			]
