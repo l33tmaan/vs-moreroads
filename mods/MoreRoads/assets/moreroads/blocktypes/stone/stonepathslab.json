@@ -13,8 +13,8 @@
 		{ code: "cover", states: ["free", "snow"] }
 	],
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"slab": { base: "block/stonepath/{type}*" },
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	attributes: {
 		handbook: {

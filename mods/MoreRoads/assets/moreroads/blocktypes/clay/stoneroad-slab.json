@@ -18,8 +18,8 @@
 		{ code: "cover", states: ["free", "snow"] },
 	],
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"slab": { base: "block/road/stoneroad{type}*" },
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	drops: [{ code: "stoneroadslab-{type}-free" }],
 	resistance: 2.4,

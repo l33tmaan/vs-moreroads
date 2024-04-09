@@ -91,6 +91,9 @@
     <None Include="mods\MoreRoads\assets\game\lang\ru.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="mods\MoreRoads\assets\moreroads\lang\pl.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\morewoodenpath.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -1523,6 +1526,348 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\road\woodedgewalnut.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\andesite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\basalt6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\bauxite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chalk6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\chert6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\claystone6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\conglomerate6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\granite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\greenmarble6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\kimberlite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\limestone6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\peridotite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\phyllite6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\redmarble6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\sandstone6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\scoria6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\shale6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\slate6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mods\MoreRoads\assets\moreroads\textures\block\stonepath\whitemarble6.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="mods\MoreRoads\assets\moreroads\textures\block\wood\barrel\concrete.png">

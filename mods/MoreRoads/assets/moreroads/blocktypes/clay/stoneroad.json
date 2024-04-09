@@ -18,8 +18,8 @@
 	replaceable: 900,
 	lightAbsorption: 99,
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal1" },
 		"road": { base: "block/road/stoneroad{type}*" },
+		"snowcover": { base: "game:block/liquid/snow/normal1" }
 	},
 	drops: [{ code: "stoneroad-{type}-free" }],
 	resistance: 2.4,

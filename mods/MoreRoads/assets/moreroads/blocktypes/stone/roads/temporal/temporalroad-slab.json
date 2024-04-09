@@ -20,7 +20,6 @@
 		{ code: "cover", states: ["free", "snow"] },
 	],
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"slab": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlaytop"],
@@ -33,6 +32,7 @@
 			overlays: ["block/road/temporaloverlaytop"],},
 			],		
 		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	drops: [{ code: "stoneroad3slab-{type}-free" }],
 	resistance: 2.4,

@@ -20,7 +20,6 @@
 	lightHsv: [32, 7, 6],
 	glowLevel: 32,
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"roadhor": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlay"],
@@ -45,6 +44,7 @@
 			overlays: ["block/road/temporaloverlaytop"],},
 			],
 		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	drops: [{ code: "stoneroad3-{type}-free" }],
 	resistance: 2.4,

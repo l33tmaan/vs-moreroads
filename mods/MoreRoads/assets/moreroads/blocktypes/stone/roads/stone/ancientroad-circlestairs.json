@@ -39,24 +39,24 @@
 	blockmaterial: "Stone",
 	texturesByType: {
 		"*-up-north-*":	{
-			"snowcover": { base: "game:block/liquid/snow/normal*" },
 			"stairshor": { base: "block/road/circle-{type}" },
-			"stairsvert": { base: "block/road/circle-{type}" }
+			"stairsvert": { base: "block/road/circle-{type}" },
+			"snowcover": { base: "game:block/liquid/snow/normal*" },
 		},
 		"*-up-west-*":	{
-			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 270 },
 			"stairshor": { base: "block/road/circle-{type}" },
-			"stairsvert": { base: "block/road/circle-{type}", "rotation": 270 }
+			"stairsvert": { base: "block/road/circle-{type}", "rotation": 270 },
+			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 270 },
 		},
 		"*-up-south-*":	{
-			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 180 },
 			"stairshor": { base: "block/road/circle-{type}" },
-			"stairsvert": { base: "block/road/circle-{type}", "rotation": 180 }
+			"stairsvert": { base: "block/road/circle-{type}", "rotation": 180 },
+			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 180 },
 		},
 		"*-up-east-*":	{
-			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 90 },
 			"stairshor": { base: "block/road/circle-{type}" },
-			"stairsvert": { base: "block/road/circle-{type}", "rotation": 90 }
+			"stairsvert": { base: "block/road/circle-{type}", "rotation": 90 },
+			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 90 },
 		},
 	},
 	replaceable: 900,

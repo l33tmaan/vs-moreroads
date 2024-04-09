@@ -21,8 +21,8 @@
 		"*-snow": [{name: "BreakSnowFirst"}]
 	},
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"road": { base: "block/stonepath/{type}*" },
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	resistanceByType: {
 		"*-snow": 0.2,

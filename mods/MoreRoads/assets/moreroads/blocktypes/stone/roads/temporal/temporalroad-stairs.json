@@ -38,7 +38,6 @@
 	},
 	blockmaterial: "Stone",
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"stairshor": { 
 			base: "block/road/ancientroad{type}1",
 			overlays: ["block/road/temporaloverlaytop"],
@@ -63,6 +62,7 @@
 			overlays: ["block/road/temporaloverlaytop"],},
 			],
 		},
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	replaceable: 900,
 	lightAbsorption: 0,

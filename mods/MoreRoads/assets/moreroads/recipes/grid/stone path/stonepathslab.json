@@ -1,5 +1,5 @@
 ﻿{
-	ingredientPattern: "LL,S_",
+	ingredientPattern: "_LL,S_",
 	ingredients: {
 		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble"] },
 		"S": { type: "block", code: "game:soil-*" },

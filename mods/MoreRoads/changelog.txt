@@ -5,8 +5,16 @@
 - IDK how to make temporal roads lol
 - blendedOverlays used to minimize texture usage
 
+1.5.5
+- Stone path slab no longer conflicts with vanilla stone path stair recipe (thanks to AdrianNumbers!)
+- Fix Roads compatibility added (thanks to AdrianNumbers!)
+- Polish translation added (thanks to AdrianNumbers!)
+
+1.5.4
+- Minimap textures fixed (thanks to Icarus)
+
 1.5.3
-Road blocks no longer give free x-ray (oops)
+- Road blocks no longer give free x-ray (oops)
 
 1.5.2
 - Stair textures aligned on all rotations

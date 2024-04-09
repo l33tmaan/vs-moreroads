@@ -18,8 +18,8 @@
 	replaceable: 900,
 	lightAbsorption: 99,
 	textures: {
-		"snowcover": { base: "game:block/liquid/snow/normal*" },
 		"road": { base: "block/road/fish-{type}" },
+		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
 	drops: [{ code: "stoneroad2fish-{type}-free" }],
 	resistance: 2.4,
