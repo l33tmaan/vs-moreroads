@@ -11,7 +11,7 @@
 
 1.5.5
 - Stone path slab no longer conflicts with vanilla stone path stair recipe (thanks to AdrianNumbers!)
-- Fixed Roads compatibility added (thanks to AdrianNumbers!)
+- Fixed Paths compatibility added (thanks to AdrianNumbers!)
 - Polish translation added (thanks to AdrianNumbers!)
 - Slab recipes require fewer stones
 
