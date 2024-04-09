@@ -1,11 +1,11 @@
 {
 	ingredientPattern: "BSL",
 	ingredients: {
-		"L": { type: "item", code: "game:stone-*", quantity: 4 },
+		"L": { type: "item", code: "game:stone-*", quantity: 2 },
 		"S": { type: "item", code: "game:lime" },
 		"B": { type: "item", code: "game:burnedbrick-*", allowedVariants: ["blue","fire"], name: "brick"},
 	},
 	width: 3,
 	height: 1,
-	output: { type: "block", code: "stoneroadslab-{brick}-free", quantity: 1 }
+	output: { type: "block", code: "stoneroadslab-{brick}-free", quantity: 2 }
 }

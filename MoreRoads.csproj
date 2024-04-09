@@ -94,6 +94,78 @@
     <None Include="mods\MoreRoads\assets\moreroads\lang\pl.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\clay\stoneroad-slab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\clay\stoneroad-stairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\clay\stoneroad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-brick.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-brickslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-brickstairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-circle.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-circleslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-circlestairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-fish.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-fishslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-fishstairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-slab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-square.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-squareslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-squarestairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad-stairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\stone\ancientroad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\temporal\temporalroad-slab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\temporal\temporalroad-stairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\roads\temporal\temporalroad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\stonepath.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\stonepathslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mods\MoreRoads\assets\moreroads\patches\compatibility\fixedpaths\blocktypes\stone\stonepathstairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\morewoodenpath.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -208,7 +280,9 @@
     <None Include="mods\MoreRoads\assets\moreroads\patches\remap.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="mods\MoreRoads\assets\moreroads\recipes\barrel\concrete.json" />
+    <None Include="mods\MoreRoads\assets\moreroads\recipes\barrel\concrete.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="mods\MoreRoads\assets\moreroads\recipes\grid\concrete.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

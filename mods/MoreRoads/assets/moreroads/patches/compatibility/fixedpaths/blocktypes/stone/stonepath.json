@@ -1,0 +1,33 @@
+﻿[
+  {
+    "op": "remove",
+    "path": "/shapeByType",
+    "file": "moreroads:blocktypes/stone/stonepath.json"
+  },
+  {
+    "op": "add",
+    "path": "/shape",
+    "value": {
+      "base": "fixedpaths:block/basic/cube-lowered-{cover}"
+    },
+    "file": "moreroads:blocktypes/stone/stonepath.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/road",
+    "file": "moreroads:blocktypes/stone/stonepath.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/snowcover",
+    "file": "moreroads:blocktypes/stone/stonepath.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/sides",
+    "value": {
+      "base": "block/stonepath/{type}*" 
+    },
+    "file": "moreroads:blocktypes/stone/stonepath.json"
+  }
+]

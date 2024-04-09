@@ -1,0 +1,43 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapeByType",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad-slab.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype",
+    "value": {
+      "*-snow": { base: "fixedpaths:block/basic/slab/snow-slab-lowered" },
+    "*": { base: "fixedpaths:block/basic/slab/slab-lowered" }
+    },
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad-slab.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/slab",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad-slab.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/snowcover",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad-slab.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/sides",
+    "value": {
+      base: "block/road/ancientroad{type}1",
+			overlays: ["block/road/temporaloverlaytop"],
+			alternates: [
+			{base: "block/road/ancientroad{type}2",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}3",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}4",
+			overlays: ["block/road/temporaloverlaytop"],},
+			]
+    },
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad-slab.json"
+  }
+]

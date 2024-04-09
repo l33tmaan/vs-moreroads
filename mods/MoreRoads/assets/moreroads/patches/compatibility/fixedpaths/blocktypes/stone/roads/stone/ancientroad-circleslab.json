@@ -1,0 +1,34 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapeByType",
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-circleslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype",
+    "value": {
+      "*-snow": { base: "fixedpaths:block/basic/slab/snow-slab-lowered" },
+    "*": { base: "fixedpaths:block/basic/slab/slab-lowered" }
+    },
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-circleslab.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/slab",
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-circleslab.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/snowcover",
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-circleslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/sides",
+    "value": {
+      base: "block/road/circle-{type}" 
+    },
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-circleslab.json"
+  }
+]

@@ -1,7 +1,7 @@
 {
 	ingredientPattern: "BCL",
 	ingredients: {
-		"L": { type: "item", code: "game:stone-*", quantity: 2 },
+		"L": { type: "item", code: "game:stone-*", quantity: 1 },
 		"C": { type: "block", code: "game:woodbucket" },
 		"B": { type: "item", code: "game:stonebrick-*", name: "brick"},
 	},

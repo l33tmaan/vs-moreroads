@@ -1,0 +1,64 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapeByType",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "add",
+    "path": "/shape",
+    "value": {
+      "base": "fixedpaths:block/basic/cube-lowered-{cover}"
+    },
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/roadhor",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/roadver",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures/snowcover",
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/horizontals",
+    "value": {
+      base: "block/road/ancientroad{type}1",
+			overlays: ["block/road/temporaloverlay"],
+			alternates: [
+			{base: "block/road/ancientroad{type}2",
+			overlays: ["block/road/temporaloverlay"],},
+			{base: "block/road/ancientroad{type}3",
+			overlays: ["block/road/temporaloverlay"],},
+			{base: "block/road/ancientroad{type}4",
+			overlays: ["block/road/temporaloverlay"],},
+			]
+    },
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/verticals",
+    "value": {
+      base: "block/road/ancientroad{type}1",
+			overlays: ["block/road/temporaloverlaytop"],
+			alternates: [
+			{base: "block/road/ancientroad{type}2",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}3",
+			overlays: ["block/road/temporaloverlaytop"],},
+			{base: "block/road/ancientroad{type}4",
+			overlays: ["block/road/temporaloverlaytop"],},
+			]
+    },
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+  }
+]
