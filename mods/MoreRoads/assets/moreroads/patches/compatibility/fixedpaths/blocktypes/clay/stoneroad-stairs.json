@@ -2,7 +2,8 @@
   {
     "op": "remove",
     "path": "/texturesByType",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -12,94 +13,111 @@
         "base": "block/road/stoneroad{type}*"
       }
     },
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-east-free/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-east-free/base",
     "value": "fixedpaths:block/basic/stairs/lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-east-snow/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-east-snow/base",
     "value": "fixedpaths:block/basic/stairs/snow-lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-north-free/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-north-free/base",
     "value": "fixedpaths:block/basic/stairs/lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-north-snow/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-north-snow/base",
     "value": "fixedpaths:block/basic/stairs/snow-lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-south-free/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-south-free/base",
     "value": "fixedpaths:block/basic/stairs/lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-south-snow/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-south-snow/base",
     "value": "fixedpaths:block/basic/stairs/snow-lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-west-free/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-west-free/base",
     "value": "fixedpaths:block/basic/stairs/lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/shapebytype/*-up-west-snow/rotateY",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "replace",
     "path": "/shapebytype/*-up-west-snow/base",
     "value": "fixedpaths:block/basic/stairs/snow-lowered/{horizontalorientation}",
-    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json"
+    "file": "moreroads:blocktypes/clay/stoneroad-stairs.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   }
 ]

@@ -2,7 +2,8 @@
   {
     "op": "remove",
     "path": "/shapeByType",
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -10,22 +11,26 @@
     "value": {
       "base": "fixedpaths:block/basic/cube-lowered-{cover}"
     },
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/textures/roadhor",
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/textures/roadver",
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/textures/snowcover",
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -42,7 +47,8 @@
 			overlays: ["block/road/temporaloverlay"],},
 			]
     },
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -59,6 +65,7 @@
 			overlays: ["block/road/temporaloverlaytop"],},
 			]
     },
-    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json"
+    "file": "moreroads:blocktypes/stone/roads/temporal/temporalroad.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   }
 ]

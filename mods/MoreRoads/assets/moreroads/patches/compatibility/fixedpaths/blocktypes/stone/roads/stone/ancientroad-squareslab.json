@@ -2,7 +2,8 @@
   {
     "op": "remove",
     "path": "/shapeByType",
-    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json"
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -11,17 +12,20 @@
       "*-snow": { base: "fixedpaths:block/basic/slab/snow-slab-lowered" },
     "*": { base: "fixedpaths:block/basic/slab/slab-lowered" }
     },
-    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json"
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/textures/slab",
-    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json"
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "remove",
     "path": "/textures/snowcover",
-    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json"
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   },
   {
     "op": "add",
@@ -29,6 +33,7 @@
     "value": {
       base: "block/road/square-{type}" 
     },
-    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json"
+    "file": "moreroads:blocktypes/stone/roads/stone/ancientroad-squareslab.json",
+    "dependsOn": [{ "modid": "fixedpaths"}]
   }
 ]

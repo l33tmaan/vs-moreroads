@@ -5,9 +5,12 @@
 - IDK how to make temporal roads lol
 - blendedOverlays used to minimize texture usage
 
-1.5.6
+1.5.7
 - Compatible with Wildcraft Trees
 - Compatible with Bricklayers
+
+1.5.6
+- Fixed Paths patches only trigger when Fixed Paths is actually installed
 
 1.5.5
 - Stone path slab no longer conflicts with vanilla stone path stair recipe (thanks to AdrianNumbers!)
