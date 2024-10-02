@@ -1,0 +1,10 @@
+﻿{
+	ingredientPattern: "S__,BB_",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "wildwoodenpath-{wood}-ns", quantity: 4  }
+}

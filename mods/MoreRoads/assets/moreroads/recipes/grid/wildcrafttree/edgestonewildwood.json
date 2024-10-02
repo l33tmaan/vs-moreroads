@@ -1,0 +1,79 @@
+﻿[
+	{
+		ingredientPattern: "SBB",
+		ingredients: {
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true
+			},
+			"B": {
+				type: "item",
+				code: "wildcrafttree:plank-*",
+				name: "wood"
+			},
+		},
+		width: 3,
+		height: 1,
+		output: {
+			type: "block",
+			code: "edgestonewildwood-{wood}-straight-north-free",
+			quantity: 4
+		}
+	},
+	{
+		ingredientPattern: "E",
+		ingredients: {
+			"E": {
+				type: "block",
+				code: "edgestonewildwood-*-corner-north-free",
+				name: "wood"
+			},
+		},
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "edgestonewildwood-{wood}-cap-north-free",
+			quantity: 1
+		}
+	},
+	{
+		ingredientPattern: "E",
+		ingredients: {
+			"E": {
+				type: "block",
+				code: "edgestonewildwood-*-straight-north-free",
+				name: "wood"
+			},
+		},
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "edgestonewildwood-{wood}-corner-north-free",
+			quantity: 1
+		}
+	},
+	{
+		ingredientPattern: "E",
+		ingredients: {
+			"E": {
+				type: "block",
+				code: "edgestonewildwood-*-cap-north-free",
+				name: "wood"
+			},
+		},
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "edgestonewildwood-{wood}-straight-north-free",
+			quantity: 1
+		}
+	}
+
+]

@@ -5,9 +5,16 @@
 - IDK how to make temporal roads lol
 - blendedOverlays used to minimize texture usage
 
+1.5.8
+- Compatible with Bricklayers
+
+1.5.8
+- Wildcraft Trees compatibility updated
+- Stone foot path contrast reduced (thanks to NerArth!) - DONE!!!
+- Hammer & chisel no longer needed to swap between variants - DONE!!!
+
 1.5.7
 - Compatible with Wildcraft Trees
-- Compatible with Bricklayers
 
 1.5.6
 - Fixed Paths patches only trigger when Fixed Paths is actually installed

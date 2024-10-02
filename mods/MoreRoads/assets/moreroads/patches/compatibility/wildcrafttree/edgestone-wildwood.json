@@ -1,0 +1,47 @@
+﻿[
+ {
+    "file": "moreroads:blocktypes/edging/wildcrafttree/edgestone-wildwood.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+ {
+   "file": "moreroads:recipes/grid/wildcrafttree/edgestonewildwood.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/0/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+ {
+   "file": "moreroads:recipes/grid/wildcrafttree/edgestonewildwood.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/1/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+ {
+   "file": "moreroads:recipes/grid/wildcrafttree/edgestonewildwood.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/2/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+    {
+        "file": "moreroads:recipes/grid/wildcrafttree/edgestonewildwood.json",
+        "side": "server",
+        "op": "add",
+        "path": "/3/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "wildcrafttree",
+                "invert": true
+            }
+        ]
+    },
+]

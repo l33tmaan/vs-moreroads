@@ -1,0 +1,18 @@
+﻿[
+ {
+    "file": "moreroads:blocktypes/wood/generic/wildcrafttree/wildwoodenpath.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+ {
+    "file": "moreroads:recipes/grid/wildcrafttree/wildwoodenpath.json",
+    "side": "server",
+    "op": "add", 
+    "path": "/enabled", 
+    "value": "false",
+    "dependsOn": [{ "modid": "wildcrafttree" , "invert": true}]
+ },
+]
